@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "arslanramay/php-pkg-unit-conversion",
+    "description": ":PHP package for Unit conversion",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        ":moova",
+        "php-pkg-unit-conversion"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/arslanramay/php-pkg-unit-conversion",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Arslan Ramay",
+            "email": "arslan@tidal.digital",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Spatie\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Spatie\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {

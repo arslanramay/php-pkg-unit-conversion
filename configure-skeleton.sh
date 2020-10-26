@@ -52,19 +52,19 @@ if ! confirm "Modify files?" ; then
 fi
 
 echo
-files=$(grep -E -r -l -i ":author|:package|spatie|skeleton|:vendor_name" --exclude-dir=vendor ./*  | grep -v "$script_name")
+files=$(grep -E -r -l -i ":author|:package|spatie|skeleton|arslanramay" --exclude-dir=vendor ./*  | grep -v "$script_name")
 
 for file in $files ; do
     echo "Customising file $file"
     temp_file="$file.temp"
     < "$file" \
-      sed "s/:author_name/$author_name/g" \
+      sed "s/Arslan Ramay/$author_name/g" \
     | sed "s/:author_username/$author_username/g" \
-    | sed "s/:author_email/$author_email/g" \
-    | sed "s/:package_name/$package_name/g" \
+    | sed "s/arslan@tidal.digital/$author_email/g" \
+    | sed "s/php-pkg-unit-conversion/$package_name/g" \
     | sed "s/Spatie/$vendor_name/g" \
     | sed "s/Skeleton/$class_name/g" \
-    | sed "s/:vendor_name/$vendor_name_lower_case/g" \
+    | sed "s/arslanramay/$vendor_name_lower_case/g" \
     | sed "s/:package_description/$package_description/g" \
     | sed "/^\*\*Note:\*\* Run/d" \
     > "$temp_file"
