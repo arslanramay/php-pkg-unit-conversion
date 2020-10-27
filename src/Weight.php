@@ -1,16 +1,16 @@
 <?php
 
 namespace Spatie\UnitConversions;
-use DeepCopy\Exception;
 
 class Weight
 {
     private float $kilograms;
 
-    public static function fromKilograms(float $kilograms): self {
+    public static function fromKilograms(float $kilograms): self
+    {
         $myArray = [
             'test',
-            'test 2'
+            'test 2',
         ];
 
         return new static($kilograms);
