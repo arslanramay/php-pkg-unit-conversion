@@ -1,7 +1,7 @@
 # :package_description
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/arslanramay/php-pkg-unit-conversion.svg?style=flat-square)](https://packagist.org/packages/arslanramay/php-pkg-unit-conversion)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/arslanramay/php-pkg-unit-conversion/run-tests?label=tests)](https://github.com/arslanramay/php-pkg-unit-conversion/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/arslanramay/php-pkg-unit-conversion/run-tests?label=tests)](https://github.com/arslanramay/php-pkg-unit-conversion/actions?query=workflow%3ATests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/arslanramay/php-pkg-unit-conversion.svg?style=flat-square)](https://packagist.org/packages/arslanramay/php-pkg-unit-conversion)
 
 **Note:** Run `./configure-skeleton` to get started, or manually replace ```Arslan Ramay``` ```:author_username``` ```arslan@tidal.digital``` ```arslanramay``` ```php-pkg-unit-conversion``` ```:package_description``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](.github/CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line.
